@@ -1,0 +1,5 @@
+log
+tmp
+RoRED.cfg
+*.sqlite3*
+*Thumbs.db
