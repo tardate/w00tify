@@ -12,4 +12,10 @@ class TwitterTest < ActionView::TestCase
     assert_select 'a[href=http://twitter.com/username]', {:text=>"@username"}
   end
 
+  test 'insert a tweet button' do
+    opt = { :via => 'username' }
+    concat(tweet_button(opt))
+    assert_select 'a'
+  end
+
 end
