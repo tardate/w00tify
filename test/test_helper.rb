@@ -27,5 +27,6 @@ class Test::Unit::TestCase
 end
 
 class ActionView::TestCase
-  include W00tify::ActionViewExtensions::W00tHelper
+  include W00tify::ActionViewExtensions
+  # include W00tify::ActionViewExtensions::TwitterHelper
 end

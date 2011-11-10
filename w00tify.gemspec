@@ -17,7 +17,21 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "README.rdoc"
+    ".document",
+    ".rvmrc",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
+    "README.rdoc",
+    "Rakefile",
+    "lib/w00tify.rb",
+    "lib/w00tify/action_view_extensions.rb",
+    "lib/w00tify/twitter/twitter_helper.rb",
+    "lib/w00tify/version.rb",
+    "test/test_helper.rb",
+    "test/twitter/twitter_test.rb",
+    "test/w00tify_test.rb",
+    "w00tify.gemspec"
   ]
   s.homepage = %q{http://github.com/tardate/w00tify}
   s.licenses = ["MIT"]

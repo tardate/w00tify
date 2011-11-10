@@ -1,12 +1,12 @@
 module W00tify
   module ActionViewExtensions
-    # This modules ..
+    # This module includes twitter-related support
     #
     # Example:
     #
     #   link_to_twitter 'username'
     #
-    module W00tHelper
+    module TwitterHelper
 
     	def link_to_twitter(item, *args, &block)
         options = args.extract_options!
@@ -20,5 +20,3 @@ module W00tify
     end
   end
 end
-
-ActionView::Base.send :include, W00tify::ActionViewExtensions::W00tHelper
