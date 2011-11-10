@@ -1,4 +1,4 @@
-= w00tify {<img src="http://travis-ci.org/tardate/w00tify.png" />}[http://travis-ci.org/tardate/w00tify]
+= w00tify {<img src="https://secure.travis-ci.org/tardate/w00tify.png" />}[http://travis-ci.org/tardate/w00tify]
 
 This is a collection of simple view helpers to add webby/chromey stuff to a site, like:
 * google analytics script
