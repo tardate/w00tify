@@ -21,8 +21,8 @@ Jeweler::Tasks.new do |gem|
   gem.version = W00tify::Version::STRING
   gem.homepage = "http://github.com/tardate/w00tify"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{collection of webby helpers}
+  gem.description = %Q{rails 3 view helpers for services from google, facebook, twitter, uservoice ..}
   gem.email = "gallagher.paul@gmail.com"
   gem.authors = ["Paul Gallagher"]
   # dependencies defined in Gemfile

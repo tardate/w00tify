@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Gallagher"]
   s.date = %q{2011-11-10}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{rails 3 view helpers for services from google, facebook, twitter, uservoice ..}
   s.email = %q{gallagher.paul@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.2}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{collection of webby helpers}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
