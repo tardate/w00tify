@@ -1,6 +1,13 @@
 = w00tify
 
-Description goes here.
+This is a collection of simple view helpers to add webby/chromey stuff to a site, like:
+* google analytics script
+* twitter links/buttons
+* facebook buttons
+
+== Requirements
+
+* Rails 3 (Rails 2 is not supported)
 
 == Contributing to w00tify
  
