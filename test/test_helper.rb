@@ -28,5 +28,4 @@ end
 
 class ActionView::TestCase
   include W00tify::ActionViewExtensions
-  # include W00tify::ActionViewExtensions::TwitterHelper
 end

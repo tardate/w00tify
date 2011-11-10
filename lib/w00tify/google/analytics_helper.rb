@@ -6,7 +6,7 @@ module W00tify
     #
     #   ga_script 'username'
     #
-    module GoogleHelper
+    module GoogleAnalyticsHelper
       
       # Inserts Google Analytics script
       # * +ga_id+ - Google Analytics ID
