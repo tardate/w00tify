@@ -1,5 +1,4 @@
 require 'w00tify/version'
-require 'action_view'
 require 'w00tify/action_view_extensions'
 
 module W00tify

@@ -10,9 +10,7 @@ module W00tify
 
     	def link_to_twitter(item, *args, &block)
         options = args.extract_options!
-        
-        handle = h( (item.respond_to?(:twitter) ) ? item.twitter : item )
-    		handle.sub!(/^@/,'')
+        handle = (item.respond_to?(:twitter) ? item.twitter : item).sub(/^@/,'')
     		url = "http://twitter.com/#{handle}"
     		link_to "@#{handle}", url , options unless handle.empty?
       end

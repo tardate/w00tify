@@ -1,3 +1,4 @@
+require 'action_view'
 module W00tify
   module ActionViewExtensions
 
