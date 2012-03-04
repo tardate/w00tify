@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Gallagher"]
-  s.date = "2012-02-26"
+  s.date = "2012-03-04"
   s.description = "rails 3 view helpers for services from google, facebook, twitter, uservoice .."
   s.email = "gallagher.paul@gmail.com"
   s.extra_rdoc_files = [
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".rvmrc",
+    ".travis.yml",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE",
@@ -26,17 +27,21 @@ Gem::Specification.new do |s|
     "Rakefile",
     "lib/w00tify.rb",
     "lib/w00tify/action_view_extensions.rb",
+    "lib/w00tify/common/common_helper.rb",
     "lib/w00tify/facebook/facebook_helper.rb",
     "lib/w00tify/google/analytics_helper.rb",
     "lib/w00tify/google/maps_helper.rb",
     "lib/w00tify/twitter/twitter_helper.rb",
     "lib/w00tify/uservoice/uservoice_helper.rb",
     "lib/w00tify/version.rb",
+    "test/common/link_to_email_test.rb",
+    "test/common/link_to_website_spec.rb",
     "test/facebook/facebook_test.rb",
     "test/google/analytics_test.rb",
     "test/google/maps_test.rb",
     "test/test_helper.rb",
-    "test/twitter/twitter_test.rb",
+    "test/twitter/link_to_twitter_test.rb",
+    "test/twitter/tweet_button_test.rb",
     "test/uservoice/uservoice_test.rb",
     "test/w00tify_test.rb",
     "w00tify.gemspec"
