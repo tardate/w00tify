@@ -8,11 +8,11 @@ module W00tify
     #
     module TwitterHelper
 
-    	def link_to_twitter(item, *args, &block)
+      def link_to_twitter(item, *args, &block)
         options = args.extract_options!
-        handle = (item.respond_to?(:twitter) ? item.twitter : item).sub(/^@/,'')
-    		url = "http://twitter.com/#{handle}"
-    		link_to "@#{handle}", url , options unless handle.empty?
+        handle = "#{(item.respond_to?(:twitter) ? item.twitter : item)}".sub(/^@/,'')
+        url = "http://twitter.com/#{handle}"
+        link_to "@#{handle}", url , options unless handle.empty?
       end
 
       # http://twitter.com/goodies/tweetbutton
